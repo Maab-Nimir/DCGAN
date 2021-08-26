@@ -7,6 +7,8 @@ For the implelmentation aiding by pytorch tutorials, I used the same settings il
 
 To get the samples results, I run the code in colab using GPU and i used the celebA dataset, which contains faces of celebrities. This can be found in the notebook file. the source refernce from https://colab.research.google.com/github/pytorch/tutorials/blob/gh-pages/_downloads/dcgan_faces_tutorial.ipynb
 
+For the dataset, I have downloaded the celebA dataset from https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html by downloading a file named img_align_celeba.zip, then extracting this file in some location, and then taking the file path and put it in the dataroot path. 
+
 Area of applications:
 1. Generation of higher resolution images.
 2. Vector arithmetic can be performed on images in Z space to get results, like man with glasses — normal man + normal woman = woman with glasses.
